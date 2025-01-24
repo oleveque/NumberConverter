@@ -1,0 +1,26 @@
+{
+  "name": "numberconverter",
+  "version": "1.0.0",
+  "description": "A JavaScript converter that converts any number into decimal, hexadecimal, or binary formats.",
+  "scripts": {
+    "start": "vite --open",
+    "build": "vite build",
+    "vite": "vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oleveque/NumberConverter.git"
+  },
+  "author": "Olivier LEVEQUE",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oleveque/NumberConverter/issues"
+  },
+  "homepage": "https://github.com/oleveque/NumberConverter#readme",
+  "dependencies": {
+    "materialize-css": "^1.0.0-rc.2"
+  },
+  "devDependencies": {
+    "vite": "^6.0.11"
+  }
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Number converter</title>
+
+		 <!-- Let browser know website is optimized for mobile -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+		<!-- Styles -->
+		<style type="text/css">
+			@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+			@import url("materialize-css/dist/css/materialize.min.css");
+		</style>
+	</head>
+
+	<body>
+		<!-- Main container -->
+		<div class="container light">
+			<!-- Header section -->
+			<div class="section">
+				<h1 class="center-align light orange-text text-lighten-3">Number converter</h1>
+				<p class="container flow-text center-align">Convert any number to decimal, hexadecimal, or binary.</p>
+			</div>
+				
+			<!-- Input fields section -->
+			<div class="section">
+				<div class="row">
+					<!-- Decimal input field -->
+					<div class="input-field col s12 offset-l2 offset-l3 l6">
+						<i class="material-icons prefix">trending_flat</i>
+						<input id="dec-number" placeholder="0" type="text" class="validate">
+						<label for="dec-number">Decimal</label>
+					</div>
+				</div>
+				<div class="row">
+					<!-- Hexadecimal input field -->
+					<div class="input-field col s12 offset-l3 l6">
+						<i class="material-icons prefix">trending_flat</i>
+						<input id="hexa-number" placeholder="0" type="text" class="validate">
+						<label for="hexa-number">Hexadecimal</label>
+					</div>
+				</div>
+				<div class="row">
+					<!-- Binary input field -->
+					<div class="input-field col s12 offset-l3 l6">
+						<i class="material-icons prefix">trending_flat</i>
+						<input id="bin-number" placeholder="0" type="text" class="validate">
+						<label for="bin-number">Binary</label>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Scripts -->
+		<script type="module" src="./main.js"></script>
+	</body>
+</html>
