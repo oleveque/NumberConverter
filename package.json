@@ -21,6 +21,6 @@
     "materialize-css": "^1.0.0"
   },
   "devDependencies": {
-    "vite": "^6.2.0"
+    "vite": "^6.2.1"
   }
 }
